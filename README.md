@@ -32,8 +32,18 @@ The application uses a multi-layered approach to prevent abuse:
 
 4. **Round-Robin Distribution**: Coupons are distributed in a sequential manner, ensuring fair distribution.
 
+
 ## Setup Instructions
 
 1. Clone the repository
-2. Install dependencies:
+2. Install dependencies
+3. Run the Application
 
+### Deployment
+The application is deployed on a live server and accessible via a public URL. For deployment instructions, refer to your preferred hosting service (e.g., Vercel, Netlify, Heroku).
+
+### Contributing
+Feel free to fork this repository and submit pull requests. For major changes, please open an issue first to discuss what you would like to change.
+
+### License
+This project is licensed under the MIT License.
