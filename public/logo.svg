@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
+  <!-- Outer circle representing continuity/round robin -->
+  <circle cx="100" cy="100" r="90" fill="#F9FAFB" stroke="#3B82F6" stroke-width="4"/>
+  
+  <!-- Arrow path to symbolize rotation/round robin -->
+  <path d="M100,20 
+           A80,80 0 0,1 180,100 
+           L160,100 
+           A60,60 0 0,0 100,40 
+           Z" 
+        fill="#3B82F6"/>
+  
+  <!-- Coupon tag design -->
+  <rect x="45" y="85" width="110" height="40" rx="8" fill="#10B981" />
+  <text x="100" y="115" text-anchor="middle" fill="#ffffff" font-size="16" font-family="Arial" font-weight="bold">
+    CouponHub
+  </text>
+  
+  <!-- Small circular dots on the outer circle representing distributed coupons -->
+  <circle cx="100" cy="10" r="4" fill="#10B981"/>
+  <circle cx="190" cy="100" r="4" fill="#10B981"/>
+  <circle cx="100" cy="190" r="4" fill="#10B981"/>
+  <circle cx="10" cy="100" r="4" fill="#10B981"/>
+</svg>
