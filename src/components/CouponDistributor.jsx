@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { fetchCoupons, claimCoupon, checkEligibility } from "../store/couponSlice";
+import { fetchCoupons, claimCoupon, checkEligibility } from "../store/CouponSlice.js";
 import { Ticket, Clock, AlertCircle, CheckCircle } from "lucide-react";
 import CouponCard from "./CouponCard";
 import { Button } from "./ui/button";
