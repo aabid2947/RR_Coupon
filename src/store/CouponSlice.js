@@ -93,7 +93,7 @@ const couponSlice = createSlice({
       })
       .addCase(checkEligibility.fulfilled, (state, action) => {
         state.loading = false;
-        state.isEligible = action.payload.isEligible;
+        state.isEligible = action.payload.eligible;
         state.timeRemaining = action.payload.timeRemaining;
         state.claimedCoupon = action.payload.claimedCoupon;
         // Optionally, update currentCoupon if provided from eligibility check

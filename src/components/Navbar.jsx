@@ -15,7 +15,7 @@ export default function Navbar() {
             <h1 className="text-xl font-bold text-gray-800 dark:text-white">
               CouponHub
             </h1>
-              <h2 className="text-black dark:text-white">Joker</h2>
+              
           </div>
 
           <button
