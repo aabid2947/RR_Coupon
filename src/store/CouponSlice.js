@@ -61,7 +61,8 @@ const couponSlice = createSlice({
   name: "coupon",
   initialState,
   reducers: {
-    updateTimeRemaining: (state, action) => {
+     updateTimeRemaining:(state, action) => {
+      console.log(action.payload)
       state.timeRemaining = action.payload;
       if (state.timeRemaining <= 0) {
         state.isEligible = true;
